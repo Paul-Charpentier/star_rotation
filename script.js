@@ -30,17 +30,34 @@ function searchStar() {
     }
 
     matches.forEach(entry => {
-
-        const div = document.createElement("div");
-        div.className = "result";
-
-        div.innerHTML =
-        `<b>${entry.star}</b><br>
-         Prot = ${entry.period} ± ${entry.error} d<br>
-         Ref: ${entry.reference}`;
-
-        resultsDiv.appendChild(div);
-    });
+      const div = document.createElement("div");
+      div.className = "result";
+  
+      let errorText = "";
+  
+      if(entry.err_plus === entry.err_minus){
+          errorText =
+          `± ${entry.err_plus}`;
+      }
+      else{
+          errorText =
+          `+${entry.err_plus} / -${entry.err_minus}`;
+      }
+  
+      const doiLink =
+          `https://doi.org/${entry.doi}`;
+  
+      div.innerHTML =
+      `<b>${entry.star}</b><br>
+       Prot = ${entry.period} ${errorText} d<br>
+       Ref:
+       <a href="${doiLink}"
+          target="_blank">
+          ${entry.ref_name}
+       </a>`;
+  
+      resultsDiv.appendChild(div);
+  });
 }
 
 function submitEntry() {
