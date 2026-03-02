@@ -62,46 +62,50 @@ function searchStar() {
 
 function submitEntry() {
 
-const star =
- document.getElementById("newStar").value;
+const entry = {
 
-const period =
- document.getElementById("newPeriod").value;
+ star:
+ document.getElementById("newStar").value,
 
-const error =
- document.getElementById("newError").value;
+ period:
+ Number(document.getElementById("newPeriod").value),
 
-const reference =
- document.getElementById("newReference").value;
+ err_plus:
+ Number(document.getElementById("newErrPlus").value),
 
+ err_minus:
+ Number(document.getElementById("newErrMinus").value),
 
-if(!star || !period || !error || !reference){
-    alert("Please fill all fields");
-    return;
-}
+ ref_name:
+ document.getElementById("newRefName").value,
 
-const newEntry = {
-    star: star,
-    period: Number(period),
-    error: Number(error),
-    reference: reference
+ doi:
+ document.getElementById("newDOI").value
 };
+
+if(
+ !entry.star ||
+ !entry.period ||
+ !entry.err_plus ||
+ !entry.err_minus ||
+ !entry.ref_name ||
+ !entry.doi
+){
+ alert("Fill all fields");
+ return;
+}
 
 const jsonText =
 encodeURIComponent(
-JSON.stringify(newEntry, null, 2)
+JSON.stringify(entry,null,2)
 );
 
 const githubURL =
-"https://github.com/Paul-Charpentier/star_rotation/new/main/data" +
+"https://github.com/USERNAME/REPOSITORY/new/main/data" +
 "?filename=contribution_" +
 Date.now() +
 ".json&value=" +
 jsonText;
-
-document.getElementById("submitInfo")
-.innerHTML =
-"Opening GitHub submission page...";
 
 window.open(githubURL);
 }
