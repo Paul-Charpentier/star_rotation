@@ -41,7 +41,7 @@ function searchStar() {
       }
       else{
           errorText =
-          `+${entry.err_plus} / -${entry.err_minus}`;
+          `+${entry.err_plus} -${entry.err_minus}`;
       }
   
       const doiLink =
