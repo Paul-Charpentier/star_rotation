@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<meta charset="UTF-8">
+<title>Stellar Rotation Database</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Stellar Rotation Period Database</h1>
+
+<!-- SEARCH -->
+<section>
+<h2>Search star</h2>
+
+<input
+  type="text"
+  id="starName"
+  placeholder="Enter star name">
+
+<button onclick="searchStar()">
+Search
+</button>
+
+<div id="results"></div>
+</section>
+
+
+<hr>
+
+<!-- ADD ENTRY -->
+<section>
+
+<h2>Add new entry</h2>
+
+<input id="newStar" placeholder="Star name">
+<input id="newPeriod" placeholder="Period (days)">
+<input id="newError" placeholder="Error">
+<input id="newReference" placeholder="Reference">
+
+<button onclick="submitEntry()">
+Submit contribution
+</button>
+
+<p id="submitInfo"></p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
