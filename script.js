@@ -101,7 +101,7 @@ JSON.stringify(entry,null,2)
 );
 
 const githubURL =
-"https://github.com/USERNAME/REPOSITORY/new/main/data" +
+"https://github.com/Paul-Charpentier/star_rotation/new/main/data" +
 "?filename=contribution_" +
 Date.now() +
 ".json&value=" +
