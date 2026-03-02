@@ -1,0 +1,14 @@
+[
+  {
+    "star": "Proxima Cen",
+    "period": 83.2,
+    "error": 1.5,
+    "reference": "Suarez Mascareno 2015"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.86,
+    "error": 0.01,
+    "reference": "Hebb et al. 2007"
+  }
+]
