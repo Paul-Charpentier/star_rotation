@@ -33,19 +33,11 @@
   },
   {
     "star": "Gl 205",
-    "period": 34.3,
-    "err_plus": 0.4,
+    "period": 34.4,
+    "err_plus": 0.5,
     "err_minus": 0.4,
     "ref_name": "Cortés-Zuleta et al. 2023",
     "doi": "10.1051/0004-6361/202245131"
-  },
-  {
-    "star": "Gl 205",
-    "period": 34.3,
-    "err_plus": 0.4,
-    "err_minus": 0.4,
-    "ref_name": "Fouqué et al. 2023",
-    "doi": "10.1051/0004-6361/202345839"
   },
   {
     "star": "Gl 846",
