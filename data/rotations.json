@@ -1496,6 +1496,14 @@
     "doi": "10.1051/0004-6361/202346794"
   },
   {
+    "star": "AN Sex",
+    "period": 23,
+    "err_plus": null,
+    "err_minus": null,
+    "ref_name": "Shan et al. 2024",
+    "doi": "10.1051/0004-6361/202346794"
+  },
+  {
     "star": "Gl 205",
     "period": 33.61,
     "err_plus": null,
@@ -1870,5 +1878,69 @@
     "err_minus": null,
     "ref_name": "Samus' et al. 2020",
     "doi": "10.1134/S1063772917010085"
-  }
+  },
+  {
+    "star": "GJ 1002",
+    "period": 161.28,
+    "err_plus": 2.9,
+    "err_minus": 2.9,
+    "ref_name": "Kemmer et al. 2025",
+    "doi": "10.1051/0004-6361/202347056"
+  }, 
+  {
+    "star": "GJ 1151",
+    "period": 150.92,
+    "err_plus": 3.1,
+    "err_minus": 3.1,
+    "ref_name": "Kemmer et al. 2025",
+    "doi": "10.1051/0004-6361/202347056"
+  }, 
+  {
+    "star": "GJ 3378",
+    "period": 83.82,
+    "err_plus": 1.05,
+    "err_minus": 1.05,
+    "ref_name": "Kemmer et al. 2025",
+    "doi": "10.1051/0004-6361/202347056"
+  }, 
+  {
+    "star": "GJ 3378",
+    "period": 82.9,
+    "err_plus": null,
+    "err_minus": null,
+    "ref_name": "Moutou et al. 2024",
+    "doi": "10.1051/0004-6361/202450466"
+  }, 
+  {
+    "star": "Gl 406",
+    "period": 2.70,
+    "err_plus": 0.01,
+    "err_minus": 0.01,
+    "ref_name": "Kemmer et al. 2025",
+    "doi": "10.1051/0004-6361/202347056"
+  }, 
+  {
+    "star": "Gl 699",
+    "period": 114.06,
+    "err_plus": 2.30,
+    "err_minus": 2.30,
+    "ref_name": "Kemmer et al. 2025",
+    "doi": "10.1051/0004-6361/202347056"
+  }, 
+  {
+    "star": "AN Sex",
+    "period": 21.42,
+    "err_plus": 0.01,
+    "err_minus": 0.01,
+    "ref_name": "Kemmer et al. 2025",
+    "doi": "10.1051/0004-6361/202347056"
+  }, 
+  {
+    "star": "EV Lac",
+    "period": 4.37,
+    "err_plus": 0.01,
+    "err_minus": 0.01,
+    "ref_name": "Kemmer et al. 2025",
+    "doi": "10.1051/0004-6361/202347056"
+  }, 
 ]
