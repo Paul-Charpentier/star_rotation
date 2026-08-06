@@ -1942,5 +1942,117 @@
     "err_minus": 0.01,
     "ref_name": "Kemmer et al. 2025",
     "doi": "10.1051/0004-6361/202347056"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.86,
+    "err_plus": 0.01,
+    "err_minus": 0.01,
+    "ref_name": "Mallorquin et al. 2024",
+    "doi": "10.1051/0004-6361/202450047"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.86,
+    "err_plus": 0.01,
+    "err_minus": 0.01,
+    "ref_name": "Zicher et al. 2022",
+    "doi": "10.1093/mnras/stac614"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.85,
+    "err_plus": 0.03,
+    "err_minus": 0.03,
+    "ref_name": "Gilbert et al. 2022",
+    "doi": "10.3847/1538-3881/ac23ca"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.8367,
+    "err_plus": 0.0006,
+    "err_minus": 0.0006,
+    "ref_name": "Szabo et al. 2021",
+    "doi": "10.1051/0004-6361/202140345"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.863,
+    "err_plus": 0.010,
+    "err_minus": 0.010,
+    "ref_name": "Martioli et al. 2021",
+    "doi": "10.1051/0004-6361/202040235"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.86,
+    "err_plus": 0.01,
+    "err_minus": 0.01,
+    "ref_name": "Klein et al. 2021",
+    "doi": "10.1093/mnras/staa3702"
+  },
+  {
+    "star": "AU Mic",
+    "period": 4.863,
+    "err_plus": 0.010,
+    "err_minus": 0.010,
+    "ref_name": "Plavchan et al. 2020",
+    "doi": "10.1038/s41586-020-2400-z"
+  },
+  {
+    "star": "Gl 317",
+    "period": 57.5,
+    "err_plus": 1.7,
+    "err_minus": 1.7,
+    "ref_name": "Morales et al. 2025",
+    "doi": "10.1051/0004-6361/202554992"
+  },
+  {
+    "star": "GJ 1151",
+    "period": 140,
+    "err_plus": 10,
+    "err_minus": 10,
+    "ref_name": "Blanco-Pozo et al. 2023",
+    "doi": "10.1051/0004-6361/202245053"
+  },
+  {
+    "star": "Gl 338B",
+    "period": 16.61,
+    "err_plus": 0.04,
+    "err_minus": 0.04,
+    "ref_name": "Blanco-Pozo et al. 2023",
+    "doi": "10.3847/1538-3881/ac9ccd"
+  },
+  {
+    "star": "GJ 411",
+    "period": 56.16,
+    "err_plus": 0.27,
+    "err_minus": 0.27,
+    "ref_name": "Hurt et al. 2022",
+    "doi": "10.3847/1538-3881/ac5c47"
+  },
+  {
+    "star": "GJ 411",
+    "period": 48,
+    "err_plus": null,
+    "err_minus": null,
+    "ref_name": "Pizzolato et al. 2003",
+    "doi": "10.1051/0004-6361:20021560"
+  },
+  {
+    "star": "Gl 447",
+    "period": 123,
+    "err_plus": null,
+    "err_minus": null,
+    "ref_name": "Bonfils et al. 2018",
+    "doi": "10.1051/0004-6361/201731973"
+  },
+  {
+    "star": "Gl 581",
+    "period": 132.5,
+    "err_plus": 6.3,
+    "err_minus": 6.3,
+    "ref_name": "von Stauffenberg et al. 2024",
+    "doi": "10.1051/0004-6361/202449375"
   }
 ]
