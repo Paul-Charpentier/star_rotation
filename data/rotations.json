@@ -1402,8 +1402,8 @@
   {
     "star": "Gl 581",
     "period": 132.5,
-    "err_plus": null,
-    "err_minus": null,
+    "err_plus": 6.3,
+    "err_minus": 6.3,
     "ref_name": "Suárez Mascareño et al. 2015",
     "doi": "10.1093/mnras/stv1441"
   },
