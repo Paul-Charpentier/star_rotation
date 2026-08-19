@@ -1514,8 +1514,8 @@
   {
     "star": "AN Sex",
     "period": 21.56,
-    "err_plus": null,
-    "err_minus": null,
+    "err_plus": 2.2,
+    "err_minus": 2.2,
     "ref_name": "Kiraga & Stepien 2007",
     "doi": "10.48550/arXiv.0707.2577"
   },
@@ -2053,6 +2053,14 @@
     "err_plus": 6.3,
     "err_minus": 6.3,
     "ref_name": "von Stauffenberg et al. 2024",
+    "doi": "10.1051/0004-6361/202449375"
+  },
+  {
+    "star": "Gl 581",
+    "period": 132,
+    "err_plus": 2,
+    "err_minus": 2,
+    "ref_name": "Robertson et al. 2014",
     "doi": "10.1051/0004-6361/202449375"
   }
 ]
